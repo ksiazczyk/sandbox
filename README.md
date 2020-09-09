@@ -15,9 +15,13 @@ Quarkus app has own README.md with more details about building it, as it is not 
 
 method: POST
 
-input data: body should be a string representation of nested arrays, example: "[[10,[[20, [30]]],[40]]]"
+input data: body should be a string representation of nested arrays, example: 
 
-output data: String representation of flat structure and max deep of original data, example "[10,20,30,40], deep: 2"
+```[[10,[[20, [30]]],[40]]]```
+
+output data: String representation of flat structure and max deep of original data, example 
+
+```[10,20,30,40], deep: 2```
 
 communication type: sync
 
