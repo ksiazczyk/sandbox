@@ -17,7 +17,7 @@ public class TransformerController {
 
     @POST
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello(String input) {
+    public String transformToFlatArray(String input) {
         log.info(input);
         Node root = transformerService.transform(input);
         FlattenTree result = transformerService.transform(root);
